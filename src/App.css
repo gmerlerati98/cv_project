@@ -1,0 +1,12 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.progress {
+  height: 10px;
+}
+
