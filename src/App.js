@@ -12,7 +12,7 @@ function App() {
     <div className="App bg-light text-dark">
       <header className="bg-primary text-white text-center p-4">
         <h1>Giuseppe Merlerati</h1>
-        <p>Software Engineer | Frontend Developer | Backend Enthusiast</p>
+        <p>Software Engineer | Powerlifter | Tech Enthusiast</p>
       </header>
       <div className="container mt-4">
         <Profile />
