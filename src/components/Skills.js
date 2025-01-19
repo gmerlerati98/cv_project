@@ -1,25 +1,29 @@
 import React, { useState } from 'react';
 import './Skills.css';
+import jsLogo from '/Users/giuseppemerlerati/cv_project/src/images/JavaScript-logo.png';
+import jaLogo from '/Users/giuseppemerlerati/cv_project/src/images/java_logo.png';
+import cssLogo from '/Users/giuseppemerlerati/cv_project/src/images/css-logo.png';
+import pyLogo from '/Users/giuseppemerlerati/cv_project/src/images/python_logo.png';
 
 const skillsData = [
   { 
     name: 'JavaScript', 
-    logo: '/public/JavaScript-logo.png', 
+    logo: jsLogo, 
     description: 'Proficient in dynamic and responsive web development. With the utilisation of React, Node.js, and Express.js.' 
   },
   { 
     name: 'Java', 
-    logo: '/logos/react.png', 
+    logo: jaLogo, 
     description: 'Well versed in REST APIs, Spring, Object-Oriented Programming.' 
   },
   { 
     name: 'CSS', 
-    logo: '/logos/css.png', 
+    logo: cssLogo, 
     description: 'Experience with styling HTML elements and front-end design.' 
   },
   { 
     name: 'Python', 
-    logo: '/logos/python.png', 
+    logo: pyLogo, 
     description: 'Experience with Flask Web App development and Data Analysis/Machine Learning libraries.' 
   },
 ];
@@ -33,7 +37,7 @@ function Skills() {
 
   return (
     <div className="skills">
-      <h2>Skills</h2>
+      <h2>Skill Badges</h2>
       <div className="skills-grid">
         {skillsData.map((skill, index) => (
           <div 

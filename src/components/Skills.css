@@ -38,7 +38,7 @@
 }
 
 .skill-card .card-back {
-  background-color: #007bff;
+  background-color: black;
   color: white;
   transform: rotateY(180deg);
   padding: 10px;
