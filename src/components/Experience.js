@@ -7,8 +7,8 @@ function Experience() {
       company: "Lloyds Banking Group",
       duration: "2021 - Present",
       description: [
-        "Developed and maintained existing software.",
-        "Deployed applications to implement automation.",
+        "Developed and maintained existing composition software.",
+        "Deployed applications to implement automation. Test data creation tool",
         "Collaborated with cross-functional teams to design scalable solutions through Hackathons.",
         "Attended and hosted Agile rituals to ensure team synergy and common quartely goals",
       ],
@@ -18,9 +18,9 @@ function Experience() {
       company: "Potenza Powerlifting",
       duration: "2020 - Present",
       description: [
-        "Built frontend components using React and Bootstrap.",
-        "Optimized API calls for better performance.",
-        "Wrote unit and integration tests to ensure code quality.",
+        "Personalised training programs geared towards powerlifting.",
+        "Custom made Google Spreadsheets with automated metrics to measure week to week progress.",
+        "Competition game day handling.",
       ],
     },
   ];
