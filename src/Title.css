@@ -1,7 +1,7 @@
 h1 {
     font-size: 4rem;
     text-transform: uppercase;
-    font-family: 'Bebas Neue';
+    font-family: 'rubik', sans-serif;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     line-height: 5.9rem;
 }

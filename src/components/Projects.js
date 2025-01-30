@@ -3,9 +3,9 @@ import React from "react";
 function Projects() {
   const projects = [
     {
-      name: "Personal Day2Day Task Tracker API",
+      name: "AI Workout App",
       description:
-        "TBC",
+        "Using a pre-trained model from DeepSeek in order to compose any workout based on user entries. Elminate the ambiguity of what to do at the gym.",
       link: "TBC",
     },
     {

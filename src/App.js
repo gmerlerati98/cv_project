@@ -13,14 +13,14 @@ function App() {
   useEffect(() => {
     // Split the text into characters for animation
     const myText = new SplitType("#my-title");
-    const mySubtitle = new SplitType("#my-subtitle");
+   // const mySubtitle = new SplitType("#my-subtitle");
 
     // GSAP animation
     gsap.to(".char", {
       y: 0,
       stagger: 0.05,
       delay: 0.2,
-      duration: 2.5,
+      duration: 1,
       opacity: 1,
     });
   }, []); // Empty dependency array ensures this runs only once
