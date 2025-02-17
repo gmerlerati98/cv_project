@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     // Split the text into characters for animation
     const myText = new SplitType("#my-title");
-   // const mySubtitle = new SplitType("#my-subtitle");
+    //const mySubtitle = new SplitType("#my-subtitle");
 
     // GSAP animation
     gsap.to(".char", {
