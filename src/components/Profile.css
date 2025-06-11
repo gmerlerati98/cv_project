@@ -1,0 +1,55 @@
+@keyframes terminalFlicker {
+  0%   { opacity: 1; }
+  5%   { opacity: 0.4; }
+  10%  { opacity: 0.9; }
+  15%  { opacity: 0.3; }
+  20%  { opacity: 1; }
+  25%  { opacity: 0.6; }
+  30%  { opacity: 1; }
+  100% { opacity: 1; }
+}
+@keyframes blinkCursor {
+  50% { opacity: 0; }
+}
+
+.profile{
+    background-color: #000;
+    color: #00ffcc;
+    font-family: 'Fira Code', monospace;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+    max-width: 1000px;
+    margin: 20px auto;
+   
+}
+
+.profile h2 {
+  font-size: 24px;
+  font-family: 'Fira Code', monospace;
+  color: #00ffcc;
+  text-shadow: 0 0 5px blue, 0 0 10px blue;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: terminalFlicker 2s infinite;
+
+}
+.profile h2::after {
+  content: "_";
+  animation: blinkCursor 1s step-start infinite;
+}
+.profile p {
+  font-size: 18px;
+  font-family: 'Fira Code', monospace;
+  color: #00ffcc;
+  text-shadow: 0 0 5px blue, 0 0 10px blue;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: terminalFlicker 2s infinite;
+
+}
+.profile p::after {
+  content: "_";
+  animation: blinkCursor 1s step-start infinite;
+}
