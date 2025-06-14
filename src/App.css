@@ -10,3 +10,55 @@ h1, h2 {
   height: 10px;
 }
 
+
+@keyframes terminalFlicker {
+  0%   { opacity: 1; }
+  5%   { opacity: 0.4; }
+  10%  { opacity: 0.9; }
+  15%  { opacity: 0.3; }
+  20%  { opacity: 1; }
+  25%  { opacity: 0.6; }
+  30%  { opacity: 1; }
+  100% { opacity: 1; }
+}
+@keyframes blinkCursor {
+  50% { opacity: 0; }
+}
+
+.App h1 {
+  font-size: 55px;
+  font-family: 'Fira Code', monospace;
+  color: #00ffcc;
+  text-shadow: 0 0 5px blue, 0 0 10px blue;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: terminalFlicker 2s infinite;
+
+}
+.App h1::after {
+  content: "_";
+  animation: blinkCursor 1s step-start infinite;
+}
+
+.App p {
+  font-size: 20px;
+  font-family: 'Fira Code', monospace;
+  color: #00ffcc;
+  text-shadow: 0 0 5px blue, 0 0 10px blue;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: terminalFlicker 2s infinite;
+
+}
+.App p::after {
+  content: "_";
+  animation: blinkCursor 1s step-start infinite;
+}
+
+.App header{
+  background-color: black;
+  color: #00ffcc;
+  text-shadow: 0 0 5px blue, 0 0 10px blue;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}

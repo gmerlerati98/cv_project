@@ -9,8 +9,8 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="App bg-light text-dark">
-      <header className="bg-primary text-white text-center p-4">
+    <div className="App">
+      <header className="App Header">
         <h1>Giuseppe Merlerati</h1>
         <p>Software Engineer | Frontend Developer | Backend Enthusiast</p>
       </header>

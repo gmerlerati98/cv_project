@@ -11,7 +11,7 @@
   font-family: 'Fira Code', monospace;
   color: #00ffcc;
   text-shadow: 0 0 5px blue, 0 0 10px blue;
-  font-size: smaller;
+  font-size: 15px;
 }
 
 /* Flickering animation */
@@ -57,13 +57,13 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 80px;
   justify-content: center;
 }
 
 .flip-card {
   background-color: transparent;
-  width: 150px;
+  width: 170px;
   height: 150px;
   perspective: 1000px;
 }
